@@ -85,3 +85,5 @@ test_product_search: PASS - 9 items found
 test_product_search: PASS - 9 items found
 test_login_or_register: PASS - 
 test_product_search: PASS - 9 items found
+test_login_or_register: PASS - 
+test_product_search: PASS - 9 items found
