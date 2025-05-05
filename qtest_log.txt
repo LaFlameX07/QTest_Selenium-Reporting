@@ -1,0 +1,30 @@
+test_valid_login: FAIL - assert 'Logged in' in '<html lang="en"><head>\n   <meta charset="utf-8">\n    <meta name="viewport" content="width=device-width, initial-sca...eads.g.doubleclick.net/pagead/html/r20250430/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>'
+ +  where '<html lang="en"><head>\n   <meta charset="utf-8">\n    <meta name="viewport" content="width=device-width, initial-sca...eads.g.doubleclick.net/pagead/html/r20250430/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session="78fa1a62aadcbe7f1691e8887c11cd39")>.page_source
+test_product_search: FAIL - 'SearchPage' object has no attribute 'driver'
+test_valid_login: FAIL - assert 'Logged in as' in '<html lang="en"><head>\n   <meta charset="utf-8">\n    <meta name="viewport" content="width=device-width, initial-sca...eads.g.doubleclick.net/pagead/html/r20250430/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>'
+ +  where '<html lang="en"><head>\n   <meta charset="utf-8">\n    <meta name="viewport" content="width=device-width, initial-sca...eads.g.doubleclick.net/pagead/html/r20250430/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session="fc3fa66f1a907579b7eed3626b2d7090")>.page_source
+test_product_search: FAIL - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="search_input"]"}
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BBCCEFA5+77893]
+	GetHandleVerifier [0x00007FF7BBCCF000+77984]
+	(No symbol) [0x00007FF7BBA991BA]
+	(No symbol) [0x00007FF7BBAEF16D]
+	(No symbol) [0x00007FF7BBAEF41C]
+	(No symbol) [0x00007FF7BBB42237]
+	(No symbol) [0x00007FF7BBB1716F]
+	(No symbol) [0x00007FF7BBB3F07F]
+	(No symbol) [0x00007FF7BBB16F03]
+	(No symbol) [0x00007FF7BBAE0328]
+	(No symbol) [0x00007FF7BBAE1093]
+	GetHandleVerifier [0x00007FF7BBF87B6D+2931725]
+	GetHandleVerifier [0x00007FF7BBF82132+2908626]
+	GetHandleVerifier [0x00007FF7BBFA00F3+3031443]
+	GetHandleVerifier [0x00007FF7BBCE91EA+184970]
+	GetHandleVerifier [0x00007FF7BBCF086F+215311]
+	GetHandleVerifier [0x00007FF7BBCD6EC4+110436]
+	GetHandleVerifier [0x00007FF7BBCD7072+110866]
+	GetHandleVerifier [0x00007FF7BBCBD479+5401]
+	BaseThreadInitThunk [0x00007FFFAD06259D+29]
+	RtlUserThreadStart [0x00007FFFADEEAF38+40]
+
