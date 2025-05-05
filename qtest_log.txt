@@ -28,3 +28,60 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFFAD06259D+29]
 	RtlUserThreadStart [0x00007FFFADEEAF38+40]
 
+test_valid_login: FAIL - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Logged in as')]"}
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00A5D363+60275]
+	GetHandleVerifier [0x00A5D3A4+60340]
+	(No symbol) [0x008906F3]
+	(No symbol) [0x008D8690]
+	(No symbol) [0x008D8A2B]
+	(No symbol) [0x00920EE2]
+	(No symbol) [0x008FD0D4]
+	(No symbol) [0x0091E6EB]
+	(No symbol) [0x008FCE86]
+	(No symbol) [0x008CC623]
+	(No symbol) [0x008CD474]
+	GetHandleVerifier [0x00CA8FE3+2467827]
+	GetHandleVerifier [0x00CA45E6+2448886]
+	GetHandleVerifier [0x00CBF80C+2560028]
+	GetHandleVerifier [0x00A73DF5+153093]
+	GetHandleVerifier [0x00A7A3BD+179149]
+	GetHandleVerifier [0x00A64BB8+91080]
+	GetHandleVerifier [0x00A64D60+91504]
+	GetHandleVerifier [0x00A4FA10+4640]
+	BaseThreadInitThunk [0x764F7BA9+25]
+	RtlInitializeExceptionChain [0x774AC2EB+107]
+	RtlClearBits [0x774AC26F+191]
+
+test_product_search: FAIL - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="search_product"]"}
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00A5D363+60275]
+	GetHandleVerifier [0x00A5D3A4+60340]
+	(No symbol) [0x008906F3]
+	(No symbol) [0x008D8690]
+	(No symbol) [0x008D8A2B]
+	(No symbol) [0x00920EE2]
+	(No symbol) [0x008FD0D4]
+	(No symbol) [0x0091E6EB]
+	(No symbol) [0x008FCE86]
+	(No symbol) [0x008CC623]
+	(No symbol) [0x008CD474]
+	GetHandleVerifier [0x00CA8FE3+2467827]
+	GetHandleVerifier [0x00CA45E6+2448886]
+	GetHandleVerifier [0x00CBF80C+2560028]
+	GetHandleVerifier [0x00A73DF5+153093]
+	GetHandleVerifier [0x00A7A3BD+179149]
+	GetHandleVerifier [0x00A64BB8+91080]
+	GetHandleVerifier [0x00A64D60+91504]
+	GetHandleVerifier [0x00A4FA10+4640]
+	BaseThreadInitThunk [0x764F7BA9+25]
+	RtlInitializeExceptionChain [0x774AC2EB+107]
+	RtlClearBits [0x774AC26F+191]
+
+test_invalid_login: PASS - 
+test_product_search: PASS - 9 items found
+test_product_search: PASS - 9 items found
+test_login_or_register: PASS - 
+test_product_search: PASS - 9 items found
