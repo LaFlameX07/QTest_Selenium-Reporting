@@ -62,6 +62,7 @@ QTest_Selenium-Reporting/
 ├── pytest.ini          # PyTest configuration
 ├── report.html         # Test results
 └── README.md           # Project description
+```
 
 ## 📸 Screenshots & Output
 
