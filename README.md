@@ -63,3 +63,14 @@ QTest_Selenium-Reporting/
 ├── report.html         # Test results
 └── README.md           # Project description
 
+## 📸 Screenshots & Output
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Login Test](screenshots/successful_account_creation.png) | ✅ Successful login test |
+| ![HTML Report](screenshots/test_report_html_file.png) | 📊 Auto-generated HTML report |
+| ![Invalid Login](screenshots/test_invalid_login.png) | Invalid Login Excerpt |
+| ![Automated Registering](screenshots/automated_details_filling.png) | Automated Registering as New User |
+| ![Automating Register](screenshots/registering_automated.png) | Registering as new user right from the start|
+| ![Search Excerpt](screenshots/search_excerpt.png) | Screenshot of searching mid testing |
+
